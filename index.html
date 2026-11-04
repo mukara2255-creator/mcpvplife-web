@@ -1,0 +1,193 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mcpvplife | Minecraft Sunucusu</title>
+<meta name="description" content="Mcpvplife Minecraft sunucusu. Çok yakında açılıyoruz!">
+<style>
+:root {
+  --green:#20e68a;
+  --dark:#080d0b;
+  --card:#111b16;
+  --muted:#9aa99f;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  background:var(--dark);
+  color:white;
+  font-family:Arial,sans-serif;
+}
+header{
+  display:flex;justify-content:space-between;
+  align-items:center;padding:22px 7%;
+  border-bottom:1px solid #203329;
+  position:sticky;top:0;background:#080d0bf2;
+  z-index:10;flex-wrap:wrap;gap:15px;
+}
+.logo{font-size:25px;font-weight:900;color:var(--green)}
+nav{display:flex;gap:20px;flex-wrap:wrap}
+nav a{color:#dce9df;text-decoration:none;font-size:14px}
+nav a:hover{color:var(--green)}
+.hero{
+  min-height:570px;display:flex;align-items:center;
+  justify-content:center;text-align:center;padding:80px 20px;
+  background:radial-gradient(ellipse at center,#123a28 0%,#080d0b 70%);
+}
+.hero h1{font-size:clamp(45px,8vw,85px);font-weight:900}
+.hero h1 span{color:var(--green)}
+.hero p{color:#b4c4b8;margin:22px auto;max-width:550px;line-height:1.7}
+.status{
+  display:inline-block;padding:12px 20px;
+  border:1px solid var(--green);border-radius:30px;
+  color:var(--green);margin-bottom:25px;
+}
+.btn{
+  display:inline-block;background:var(--green);
+  color:#06130b;padding:14px 25px;border-radius:9px;
+  text-decoration:none;font-weight:bold;margin:7px;
+}
+.btn.secondary{background:#18271e;color:white;border:1px solid #345340}
+section{padding:75px 7%;max-width:1250px;margin:auto}
+.section-title{text-align:center;font-size:34px;margin-bottom:12px}
+.section-desc{text-align:center;color:var(--muted);margin-bottom:35px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.card{
+  background:var(--card);border:1px solid #263b2d;
+  padding:27px;border-radius:15px;text-align:center;
+  transition:.2s;
+}
+.card:hover{transform:translateY(-5px);border-color:var(--green)}
+.card h3{color:var(--green);font-size:22px;margin:12px 0}
+.card p{color:var(--muted);line-height:1.6;font-size:14px}
+.icon{font-size:38px}
+.price{font-size:24px;color:white;font-weight:bold;margin:18px}
+.tag{color:var(--green);font-size:12px;margin-top:12px}
+.rules{max-width:750px;margin:auto}
+.rule{
+  padding:18px;background:var(--card);
+  border-radius:10px;margin:10px 0;color:#d7e4da;
+  border:1px solid #203329;
+}
+.info{
+  background:linear-gradient(120deg,#10271b,#111b16);
+  padding:35px;border:1px solid #285039;
+  border-radius:16px;text-align:center;
+}
+footer{
+  border-top:1px solid #203329;padding:30px 15px;
+  text-align:center;color:var(--muted);font-size:13px;
+}
+footer span{color:var(--green)}
+@media(max-width:600px){
+  header{justify-content:center}
+  nav{justify-content:center;gap:13px}
+  section{padding:55px 5%}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">MCPVPLIFE</div>
+  <nav>
+    <a href="#anasayfa">Ana Sayfa</a>
+    <a href="#magaza">Mağaza</a>
+    <a href="#kadromuz">Yetkililer</a>
+    <a href="#kurallar">Kurallar</a>
+    <a href="#destek">Destek</a>
+  </nav>
+</header>
+
+<main>
+<div class="hero" id="anasayfa">
+  <div>
+    <div class="status">● YAKINDA AÇILIYOR</div>
+    <h1>MCPVP<span>LIFE</span></h1>
+    <p>Yeni bir maceraya hazır mısın? Mcpvplife dünyasında
+    seni bekleyen heyecan dolu bir Minecraft deneyimi!</p>
+    <a href="#magaza" class="btn">Mağazayı Keşfet</a>
+    <a href="#destek" class="btn secondary">Bize Destek Ol</a>
+    <p>Sunucu durumu: <strong style="color:var(--green)">Hazırlanıyor</strong></p>
+  </div>
+</div>
+
+<section id="magaza">
+  <h2 class="section-title">VIP Mağazası</h2>
+  <p class="section-desc">Sana uygun rankı keşfet!</p>
+  <div class="cards">
+    <div class="card">
+      <div class="icon">💎</div>
+      <h3>VIP</h3>
+      <p>Özel VIP ayrıcalıkları</p>
+      <div class="price">Yakında</div>
+      <div class="tag">SATIŞ YAKINDA</div>
+    </div>
+    <div class="card">
+      <div class="icon">👑</div>
+      <h3>VIP+</h3>
+      <p>Gelişmiş VIP ayrıcalıkları</p>
+      <div class="price">Yakında</div>
+      <div class="tag">SATIŞ YAKINDA</div>
+    </div>
+    <div class="card">
+      <div class="icon">⚡</div>
+      <h3>MVP</h3>
+      <p>Özel MVP ayrıcalıkları</p>
+      <div class="price">Yakında</div>
+      <div class="tag">SATIŞ YAKINDA</div>
+    </div>
+  </div>
+</section>
+
+<section id="kadromuz">
+  <h2 class="section-title">Yetkili Kadromuz</h2>
+  <p class="section-desc">Mcpvplife yönetim ekibi</p>
+  <div class="cards">
+    <div class="card"><div class="icon">👑</div><h3>Kurucu</h3><p>Sunucu sahibi</p><div class="tag">OYUNCU: Henüz belirlenmedi</div></div>
+    <div class="card"><div class="icon">🛡️</div><h3>Admin</h3><p>Sunucu yönetimi</p><div class="tag">OYUNCU: Henüz belirlenmedi</div></div>
+    <div class="card"><div class="icon">⚔️</div><h3>Moderatör</h3><p>Sunucu düzeni</p><div class="tag">OYUNCU: Henüz belirlenmedi</div></div>
+    <div class="card"><div class="icon">⭐</div><h3>Rehber</h3><p>Oyunculara yardım</p><div class="tag">OYUNCU: Henüz belirlenmedi</div></div>
+    <div class="card"><div class="icon">🏗️</div><h3>Builder</h3><p>Harita ve yapı tasarımı</p><div class="tag">OYUNCU: Henüz belirlenmedi</div></div>
+  </div>
+</section>
+
+<section id="kurallar">
+  <h2 class="section-title">Sunucu Kuralları</h2>
+  <p class="section-desc">Herkes için güzel bir oyun ortamı!</p>
+  <div class="rules">
+    <div class="rule">01 — Diğer oyunculara saygılı ol.</div>
+    <div class="rule">02 — Hile ve oyun açıklarını kötüye kullanma.</div>
+    <div class="rule">03 — Küfür ve hakaret etme.</div>
+    <div class="rule">04 — Reklam ve spam yapma.</div>
+    <div class="rule">05 — Yetkililerin uyarılarına uy.</div>
+  </div>
+</section>
+
+<section id="destek">
+  <div class="info">
+    <h2 class="section-title">Bize Destek Ol!</h2>
+    <p class="section-desc">Mcpvplife'ın gelişmesine katkıda bulun.</p>
+    <p style="color:var(--muted);margin-bottom:20px">
+      Destek seçenekleri sunucu açıldığında duyurulacaktır.
+    </p>
+    <a href="#" class="btn secondary">Discord Yakında</a>
+  </div>
+</section>
+
+<section id="profil">
+  <h2 class="section-title">Oyuncu Profilleri</h2>
+  <p class="section-desc">Oyuncu profilleri sunucu açıldığında aktif olacak.</p>
+  <div class="info">👤 Profil sistemi hazırlanıyor...</div>
+</section>
+</main>
+
+<footer>
+  <p>© 2026 <span>Mcpvplife</span> - Tüm hakları saklıdır.</p>
+  <p style="margin-top:8px">Resmî Minecraft sunucu web sitesi.</p>
+</footer>
+
+</body>
+</html>
